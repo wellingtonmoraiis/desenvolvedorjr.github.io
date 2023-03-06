@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  max-width: 1440px;
+}
+.brightness{
+  filter: opacity(30%);
+}
+h1{
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 72px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.8125rem;
+  color: #F71963;
+  text-align: center;
+}
+.btn-1{
+  width: 227px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #F71963;
+  border: none;
+  font-size: 1.125rem;
+  line-height: 27px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 35px;
+}
+
+.btn-comprar{
+  width: 245px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #F71963;
+  color: #fff;
+  font-size: .875rem;
+  line-height: 21px;
+  font-weight: 700;
+  border: none;
+  margin: 12px 11px;
+}
+.btn-parceiros{
+  width: 131px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #F71963;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 24px;
+}
+.btn-ok{
+  width: 62px;
+  height: 45px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #F71963;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  margin-left: 5px;
+}

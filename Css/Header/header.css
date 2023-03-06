@@ -1,0 +1,97 @@
+.header-container{
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 32px;
+}
+/*div  span*/
+.svg{
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 1px solid #F0F0F0;
+}
+.span-container{
+  display: flex;
+  gap: 12.2px;
+  font-size: .75rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  color: #9F9F9F;
+  
+}
+.span-color{
+  color: #F71963;
+  font-weight: 500;
+}
+
+/* Div Vtex */
+.vtex-container{
+  max-width: 1280px;
+  padding: 7px 56px;
+  margin: 12px auto;
+  display: flex;
+  gap: 6px;
+  border-bottom: 1px solid #F0F0F0
+}
+.vtex-container input{
+  width: 657px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  background-color: #F6F5F2;
+  padding: 14px 24px;
+  font-size: .875rem;
+  line-height: 1.3125rem;
+  color: #9F9F9F;
+  font-weight: 500;
+  font-family: 'Poppins';
+  margin-left: 95px;
+  position: relative;
+  outline: none;
+}
+/* Lupa */
+.lupa{
+  position: absolute;
+  right: 380px;
+  top: 60px;
+}
+/* vtex svg */
+
+.vtex-svg{
+  display: flex;
+  gap: 35px;
+  margin-left: 61px;
+}
+.vtex-svg img{
+  width: 25px;
+}
+.vtex-svg a{
+  display: inline;
+}
+
+/* links */
+
+.links{
+  max-width: 1280px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding-left: 56px;
+  text-align: center;
+}
+.links a{
+  font-size: .75rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  color: #9F9F9F;
+  text-transform: uppercase;
+}
+.links a:hover{
+  opacity: 50%;
+}
+.ofertas{
+  color: #F71963;
+}

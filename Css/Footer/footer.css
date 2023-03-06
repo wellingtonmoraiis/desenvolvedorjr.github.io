@@ -1,0 +1,161 @@
+/* CONTAINER FOOTER */
+.footer{
+  max-width: 1442px;
+  height: 351px;
+  background-color: #2A2A2A;
+  margin-top: 169px;
+  position: relative;
+}
+/* DIV SOBRE */
+.sobre{
+  margin-left: 96px;
+  margin-top: 59px;
+}
+.sobre span{
+  font-size: .8125rem;
+  font-weight: 700;
+  line-height: 1.2188rem;
+  color: #fff;
+  display: inline-block;
+  margin-top: 59px;
+  margin-bottom: 24px;
+}
+.sobre p{
+  font-size: .75rem;
+  font-weight: 300;
+  line-height: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* DIV SOCIAL MEDIA */
+.social{
+  display: flex;
+  gap: 37px;
+  margin-top: 70px;
+}
+/* CONTAINER INFO */
+.info{
+  margin-left: 335px;
+  top: 0px;
+  position: absolute;
+}
+.info span{
+  font-size: .8125rem;
+  font-weight: 700;
+  line-height: 1.2188rem;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 24px;
+  margin-top: 59px;
+  text-transform: uppercase;
+}
+.info p{
+  font-size: .75rem;
+  font-weight: 300;
+  line-height: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* CONTAINER PAGAMENTO */
+.pagamento{
+  position: absolute;
+  top: 0;
+  margin-left: 555px;
+  margin-top: 59px;
+}
+.pagamento span{
+  font-size: .8125rem;
+  font-weight: 700;
+  line-height: 1.2188rem;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.pagamento-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 26px;
+  gap: 29px;
+}
+
+/* DIV CADASTRO */
+.cadastro{
+  width: 380px;
+  height: 260px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 332px;
+  text-align: center;
+}
+.cadastro span{
+  color: #3F3F40;
+  font-size: 1.3125rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+}
+/* TAG P CAD */
+.cad{
+  color: #3F3F40;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+/* TAG P TEXT */
+.text-cadastro{
+  font-size: .75rem;
+  line-height: 1.1875rem;
+  font-weight: 300;
+  color: #3F3F40;
+  margin-top: 14px;
+}
+/* INPUT EMAIL */
+.campo-email{
+  width: 230px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #2A2A2A;
+  outline: none;
+  padding: 13px 25px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  font-size: .75rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+/* DIV INPUT */
+.input-btn{
+  margin-top: 26px;
+}
+
+/* DIREITOS RESERVADOS */
+
+.direitos{
+  max-width: 1442px;
+  height: 70px;
+  background-color: #2A2A2A;
+  border-top: 1px solid #fff;
+  margin-top: 60px;
+  position: relative;
+}
+.direitos p{
+  font-size: .625rem;
+  font-weight: 400;
+  line-height: .8125rem;
+  color: #fff;
+  margin: 22px 93px;
+  text-transform: uppercase;
+}
+.direitos-svg{
+  position: absolute;
+  top: 19px;
+  right: 106px;
+  display: flex;
+  gap: 32px;
+}
